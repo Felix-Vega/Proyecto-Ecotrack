@@ -55,7 +55,7 @@ body {
   flex-direction: column;
 }
 
-/* Móvil real: sin shell de teléfono */
+/* Para el telefono muy real*/
 @media (max-width: 500px) {
   body {
     display: block !important;
@@ -76,7 +76,7 @@ body {
   }
 }
 
-/* ── SCREENS ── */
+/* ── pantallas ── */
 .screen {
   display: none;
   flex-direction: column;
@@ -103,7 +103,7 @@ body {
 #screen-ayuda   { overflow-y: auto; }
 #screen-stats, #screen-tienda, #screen-perfil { overflow-y: auto; }
 
-/* ── DECORATIVE BLOBS & DOTS ── */
+/* ── Decoraciones de la pagina ── */
 .blob {
   position: absolute;
   border-radius: 50%;
