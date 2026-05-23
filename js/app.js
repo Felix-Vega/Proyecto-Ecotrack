@@ -108,11 +108,14 @@ function refreshHome() {
   } else {
     card.innerHTML = `
       <div class="eco-racha-left">
-        <div class="eco-racha-title">Eco <span>Racha</span></div>
-        <div class="eco-racha-number">35</div>
-        <div class="eco-racha-unit">días</div>
+        <div class="eco-racha-title">🏅 Eco <span>Títulos</span></div>
+        <div style="font-family:'Poppins',sans-serif;font-size:13px;color:rgba(255,255,255,0.85);margin-top:6px;line-height:1.4">
+          Gana puntos en el Quiz<br>y canjéalos en la Tienda
+        </div>
       </div>
-      <div class="eco-racha-leaf">🌿</div>`;
+      <div class="eco-racha-leaf" style="font-size:40px">🎖️</div>`;
+    card.onclick = () => { showScreen('screen-tienda'); renderTienda(); };
+    card.style.cursor = 'pointer';
   }
 }
 
